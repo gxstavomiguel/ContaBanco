@@ -10,15 +10,15 @@ public class ContaTerminal {
                 String Nome = scanner.next();
 
                 System.out.println("Informe sua Agencia:");
-                int Agencia = scanner.nextInt();
+                String Agencia = scanner.next();
 
                 System.out.println("Informe sua Conta:");
-                String Numero = scanner.next();
+                int Numero = scanner.nextInt();
 
                 System.out.println("Informe seu saldo:");
                 double Saldo = scanner.nextDouble();
 
-                System.out.println("Olá, " + Nome + " obrigado por criar uma conta em nosso banco, sua agência é " + Agencia + " conta " + Numero + " e seu saldo é de" +  Saldo + " e já está disponível para saque.");
+                System.out.println("Olá, " + Nome + " obrigado por criar uma conta em nosso banco, sua agência é " + Agencia + " conta " + Numero + " e seu saldo é de " +  Saldo + " e já está disponível para saque.");
 
             }
         }
